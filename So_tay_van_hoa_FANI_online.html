@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sổ tay văn hoá FANI</title>
+<style>
+:root{--o:#f36b16;--o2:#ff9b43;--bg:#fffaf5;--ink:#29231f;--muted:#74675d;--line:#efd5bd}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Segoe UI,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+header{height:66px;position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:18px;padding:0 26px;background:#fffdf9ee;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.logo{font-size:26px;font-weight:900;color:var(--o);letter-spacing:1px}.tag{color:var(--muted);font-size:13px}.search{margin-left:auto}.search input{width:260px;border:1px solid #e4cbb6;border-radius:999px;padding:10px 15px;outline:none}
+.layout{display:grid;grid-template-columns:240px 1fr}.side{position:sticky;top:66px;height:calc(100vh - 66px);padding:22px 14px;border-right:1px solid var(--line);background:#fffdf9}
+.side button{width:100%;border:0;background:none;text-align:left;padding:11px 13px;border-radius:11px;color:#5e5148;cursor:pointer;margin:2px 0}.side button:hover,.side button.active{background:#fff0e3;color:var(--o);font-weight:700}
+main{max-width:1100px;width:100%;margin:auto;padding:44px 46px 70px}.page{display:none}.page.active{display:block}
+.eyebrow{display:inline-block;background:#fff0e3;color:var(--o);font-weight:800;font-size:12px;letter-spacing:1.3px;padding:6px 11px;border-radius:99px}
+h1{font-size:42px;line-height:1.15;margin:16px 0 28px}h2{font-size:26px}h3{margin:5px 0 9px}p{margin:7px 0 15px}.lead{font-size:20px;font-weight:650}
+.hero,.card,.value,.method,.numberList article,.fiveNo article,details{background:white;border:1px solid var(--line);border-radius:18px;box-shadow:0 7px 22px #7a4e2210}
+.hero{padding:34px;background:linear-gradient(135deg,#fff3e5,#fff)}
+.quote{border-left:4px solid var(--o);background:#fff5eb;padding:15px 18px;border-radius:0 12px 12px 0;font-weight:650}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:17px}.card,.value,.method{padding:22px}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.value1{border-top:5px solid #f39a43}.value2{border-top:5px solid #ef7777}.value3{border-top:5px solid #e79a25}
+.valueNo{font-weight:900;color:var(--o);font-size:12px}.flow{display:flex;justify-content:center;align-items:center;gap:12px;margin:24px 0;padding:16px;background:#fff0e3;border-radius:16px;color:var(--o);font-weight:800;text-align:center}.flow b{font-size:22px}
+.sectionLabel{margin:32px 0 13px;color:var(--o)}details{margin:10px 0;padding:0 17px}summary{cursor:pointer;padding:15px 2px;font-weight:800}details ul{padding-left:23px}
+.numberList{display:grid;gap:12px}.numberList article{display:grid;grid-template-columns:46px 1fr;gap:15px;padding:17px}.numberList article>b{width:38px;height:38px;display:grid;place-items:center;background:#fff0e3;color:var(--o);border-radius:11px}.numberList h3{margin-top:0}
+.methods .method>span{display:inline-grid;place-items:center;width:34px;height:34px;background:var(--o);color:#fff;border-radius:9px;font-weight:900}
+.fiveNo{display:grid;gap:13px}.fiveNo article{border-left:6px solid var(--o);padding:17px 20px;display:flex;gap:18px}.fiveNo strong{min-width:250px;color:#d7580d}
+footer{margin-top:45px;border-top:1px solid var(--line);padding-top:18px;text-align:center;color:#8b796c;font-size:12px}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:sticky;height:auto;display:flex;overflow:auto;padding:7px;top:66px;z-index:10;border-right:0;border-bottom:1px solid var(--line)}.side button{width:auto;white-space:nowrap}.main,main{padding:28px 18px 55px}.values,.grid2{grid-template-columns:1fr}.tag{display:none}.search input{width:170px}h1{font-size:34px}.fiveNo article{display:block}.fiveNo strong{display:block;margin-bottom:5px}}
+</style>
+</head>
+<body>
+<header><div class="logo">FANI</div><div class="tag">Sổ tay văn hoá · CBNV</div><div class="search"><input id="q" placeholder="Tìm nội dung..."></div></header>
+<div class="layout">
+<nav class="side">
+<button data-p="home">Trang chủ</button>
+<button data-p="fani">FANI</button>
+<button data-p="values">Giá trị cốt lõi</button>
+<button data-p="conduct">Văn hoá ứng xử</button>
+<button data-p="behavior">Hành vi tiêu chuẩn</button>
+<button data-p="management">Nguyên tắc quản trị</button>
+<button data-p="methods">Phương pháp quản trị</button>
+<button data-p="nonneg">5 Không</button>
+</nav>
+<main>
+<section id="home" class="page">
+<div class="hero"><div class="eyebrow">CÙNG NHAU TẠO NÊN GIÁ TRỊ ĐÍCH THỰC</div><h1>Sổ tay văn hoá FANI</h1>
+<p class="lead">Chào mừng bạn đã trở thành một phần của đại gia đình FANI!</p>
+<p>Tại FANI, chúng tôi tin rằng con người là gốc rễ của mọi thành công. Khi mỗi cá nhân được thấu hiểu, phát triển và tỏa sáng, tổ chức cũng sẽ vững mạnh và vươn xa hơn.</p>
+<p>Văn hoá FANI không chỉ nằm ở những điều chúng ta nói, mà ở cách chúng ta lắng nghe, giao tiếp, ứng xử và cùng nhau hành động mỗi ngày.</p>
+<div class="quote">“Mình đang làm việc cùng những người cùng chí hướng, cùng nhau tạo nên những giá trị có ý nghĩa cho khách hàng, cho đồng đội và cho chính bản thân.”</div>
+</div></section>
+
+<section id="fani" class="page"><div class="eyebrow">THÔNG TIN CHUNG</div><h1>FANI – Tầm nhìn & Sứ mệnh</h1>
+<div class="grid2"><article class="card"><h3>🎯 Tầm nhìn</h3><p>Trở thành doanh nghiệp hàng đầu trong ngành hàng tiêu dùng tại ASEAN.</p></article>
+<article class="card"><h3>🎯 Sứ mệnh</h3><p>Mang sự an tâm và tiện nghi tới cuộc sống của mọi gia đình.</p></article></div></section>
+
+<section id="values" class="page"><div class="eyebrow">TỪ ĐIỂN “NGƯỜI NHÀ FANI”</div><h1>3 Giá trị cốt lõi</h1>
+<div class="values">
+<article class="value value1"><div class="valueNo">01</div><h2>Lấy nhân làm gốc</h2><p>Hướng đến xây dựng môi trường nơi mỗi nhân sự được tin tưởng, được trao cơ hội phát triển, được trao quyền để tạo ra giá trị và được ghi nhận bằng kết quả cũng như sự trưởng thành của chính mình.</p></article>
+<article class="value value2"><div class="valueNo">02</div><h2>Lấy khách hàng làm trung tâm</h2><p>Phục vụ khách hàng hài lòng là kim chỉ nam cho mọi hoạt động của doanh nghiệp.</p></article>
+<article class="value value3"><div class="valueNo">03</div><h2>Hướng đến hiệu quả</h2><p>Hành động nhanh, quyết định đúng và tập trung vào kết quả cuối cùng.</p></article></div>
+<div class="flow"><span>Lấy nhân làm gốc</span><b>→</b><span>Lấy khách hàng làm trung tâm</span><b>→</b><span>Hướng đến hiệu quả</span></div></section>
+
+<section id="conduct" class="page"><div class="eyebrow">NỘI BỘ & ĐỐI NGOẠI</div><h1>Văn hoá ứng xử</h1>
+<h2 class="sectionLabel">Văn hoá ứng xử nội bộ</h2>
+<details open><summary>1. Ứng xử với cấp trên</summary><ul><li>Tôn trọng định hướng, quyết định và nguyên tắc làm việc của tổ chức.</li><li>Chủ động nhận việc, báo cáo tiến độ và phản hồi kịp thời khi có vướng mắc.</li><li>Góp ý thẳng thắn, đúng thời điểm, trên tinh thần xây dựng.</li><li>Cầu thị, tiếp thu phản hồi và cải thiện bản thân sau mỗi lần được góp ý.</li></ul></details>
+<details><summary>2. Ứng xử với cấp dưới</summary><ul><li>Gương mẫu trong thái độ, kỷ luật và trách nhiệm.</li><li>Giao việc rõ mục tiêu, rõ kỳ vọng, rõ thời hạn và rõ tiêu chuẩn kết quả.</li><li>Lắng nghe, hướng dẫn và hỗ trợ nhân sự hoàn thành công việc.</li><li>Đánh giá công bằng theo năng lực, thái độ, đóng góp và kết quả.</li><li>Ghi nhận đúng nỗ lực, đào tạo nhân sự và xây dựng đội ngũ kế cận.</li></ul></details>
+<details><summary>3. Ứng xử đồng cấp</summary><ul><li>Lắng nghe, tôn trọng sự khác biệt và không phán xét cảm tính.</li><li>Phối hợp trên tinh thần đồng đội, cùng hướng đến mục tiêu chung.</li><li>Sẵn sàng hỗ trợ trong phạm vi phù hợp, không đổ lỗi, không tranh công.</li><li>Góp ý chân thành, đúng người, đúng việc và vì sự phát triển chung.</li></ul></details>
+<h2 class="sectionLabel">Văn hoá ứng xử đối ngoại</h2>
+<div class="grid2"><article class="card"><h3>Với Khách hàng</h3><ul><li>Lắng nghe để hiểu đúng nhu cầu, mong muốn và vấn đề của khách hàng.</li><li>Giữ thái độ lịch sự, chuyên nghiệp và chân thành trong mọi tương tác.</li><li>Nói đúng, làm đúng, không hứa vượt quá khả năng thực hiện.</li><li>Theo đuổi vấn đề đến cùng trong phạm vi trách nhiệm, không bỏ mặc khách hàng.</li></ul></article>
+<article class="card"><h3>Với Đối tác</h3><ul><li>Hợp tác minh bạch, tôn trọng thỏa thuận và lợi ích chính đáng của các bên.</li><li>Giao tiếp rõ ràng, đúng mực và nhất quán trong hành động.</li><li>Giữ chữ tín, bảo vệ hình ảnh uy tín, tận tâm và đáng tin cậy của FANI.</li><li>Cùng đối tác xây dựng quan hệ lâu dài, hài hòa lợi ích và cùng phát triển.</li></ul></article></div></section>
+
+<section id="behavior" class="page"><div class="eyebrow">MỖI NGƯỜI NHÀ FANI CẦN LÀM GÌ?</div><h1>Tiêu chuẩn hành vi nhân viên</h1>
+<div class="numberList">
+<article><b>01</b><div><h3>Tôn trọng và đồng hành</h3><p>Luôn xem đồng nghiệp là những người cùng đồng hành trong công việc; giao tiếp bình đẳng, tôn trọng, sẵn sàng phối hợp, góp ý và phản hồi trên tinh thần xây dựng vì mục tiêu chung.</p></div></article>
+<article><b>02</b><div><h3>Làm việc rõ mục tiêu, rõ trách nhiệm</h3><p>Trước khi bắt đầu công việc, cần xác định rõ mục tiêu, kết quả mong đợi, thời hạn hoàn thành và trách nhiệm của bản thân; không làm việc mơ hồ, bị động hoặc chờ nhắc việc.</p></div></article>
+<article><b>03</b><div><h3>Tập trung vào kết quả</h3><p>Khi xử lý công việc, tập trung vào bản chất vấn đề, kết quả cần đạt và giá trị tạo ra; không đổ lỗi, né tránh trách nhiệm hoặc sa vào tranh luận cảm tính.</p></div></article>
+<article><b>04</b><div><h3>Chủ động giải quyết và đề xuất giải pháp</h3><p>Khi phát hiện khó khăn, sai sót hoặc cơ hội cải tiến, cần chủ động tham gia xử lý, báo cáo kịp thời và đề xuất ít nhất một giải pháp; không chỉ đứng ngoài quan sát, nhận xét hoặc chờ chỉ đạo.</p></div></article>
+<article><b>05</b><div><h3>Trung thực trong báo cáo và chịu trách nhiệm đến cùng</h3><p>Báo cáo, phản hồi công việc bằng dữ liệu, số liệu và kết quả cụ thể; trung thực với thực tế phát sinh, chịu trách nhiệm với phần việc của mình trước khi tìm lý do hay quy trách nhiệm cho người khác.</p></div></article>
+<article><b>06</b><div><h3>Không ngừng học hỏi và tạo giá trị thực</h3><p>Không ngại thử thách, luôn giữ tinh thần dám nghĩ, dám làm, dám cải tiến; ưu tiên làm những việc tạo ra giá trị thực cho khách hàng, đồng nghiệp, bộ phận và công ty, không làm việc hình thức.</p></div></article>
+</div></section>
+
+<section id="management" class="page"><div class="eyebrow">CÁCH FANI QUẢN TRỊ TỔ CHỨC</div><h1>10 Nguyên tắc quản trị</h1>
+<div class="numberList">
+<article><b>01</b><div><h3>Chính trực & Lấy khách hàng làm trung tâm</h3><p>Chính trực trong mọi quyết định. Mọi hành động đều bắt đầu từ giá trị mang lại cho khách hàng và sự phát triển bền vững của doanh nghiệp.</p></div></article>
+<article><b>02</b><div><h3>Nghĩ lớn – Đặt mục tiêu cao</h3><p>Luôn hướng đến những mục tiêu có giá trị lớn. Không chỉ hoàn thành KPI mà còn tạo ra sự tăng trưởng vượt mong đợi và xây dựng lợi thế cạnh tranh lâu dài.</p></div></article>
+<article><b>03</b><div><h3>Kết quả là tiêu chuẩn duy nhất</h3><p>Đánh giá bằng kết quả và tác động tạo ra, không đánh giá bằng sự bận rộn, thời gian làm việc hay hình thức báo cáo.</p></div></article>
+<article><b>04</b><div><h3>Hệ thống tạo nên tăng trưởng</h3><p>Ưu tiên xây dựng quy trình, tiêu chuẩn và đào tạo để giảm phụ thuộc vào cá nhân. Mỗi cải tiến phải giúp tổ chức vận hành tốt hơn.</p></div></article>
+<article><b>05</b><div><h3>Chia sẻ bối cảnh – Trao quyền hành động</h3><p>Lãnh đạo có trách nhiệm chia sẻ mục tiêu, bối cảnh và định hướng rõ ràng; đội ngũ được trao quyền để chủ động ra quyết định và chịu trách nhiệm với kết quả.</p></div></article>
+<article><b>06</b><div><h3>Quyết định nhanh – Hành động nhanh</h3><p>Ra quyết định dựa trên dữ liệu và nguyên tắc; hành động nhanh, học nhanh và cải tiến liên tục. Tốc độ là lợi thế cạnh tranh của tổ chức.</p></div></article>
+<article><b>07</b><div><h3>Đối mặt sự thật – Giải quyết tận gốc</h3><p>Không né tránh vấn đề, không đổ lỗi. Luôn tìm nguyên nhân gốc rễ và xử lý triệt để để vấn đề không lặp lại.</p></div></article>
+<article><b>08</b><div><h3>Luôn ở tuyến đầu</h3><p>Lãnh đạo phải thường xuyên đến hiện trường, gặp khách hàng, làm việc cùng đội ngũ và trực tiếp quan sát thực tế trước khi đưa ra quyết định.</p></div></article>
+<article><b>09</b><div><h3>Xây dựng con người trước khi xây dựng kết quả</h3><p>Thành công lâu dài đến từ việc phát triển đội ngũ. Mỗi người lãnh đạo có trách nhiệm đào tạo, truyền cảm hứng và tạo cơ hội để đồng đội phát triển.</p></div></article>
+<article><b>10</b><div><h3>Văn hóa quyết định tương lai</h3><p>Dám nghĩ, dám làm, dám chịu trách nhiệm và luôn giữ tinh thần học hỏi. Văn hóa là tiêu chuẩn để tuyển chọn, đánh giá và đồng hành cùng những người phù hợp trên chặng đường dài.</p></div></article>
+</div></section>
+
+<section id="methods" class="page"><div class="eyebrow">BIẾN VĂN HOÁ THÀNH CÁCH LÀM VIỆC</div><h1>Phương pháp quản trị</h1>
+<div class="grid2">
+<article class="method"><span>01</span><h3>Buddy – Người đồng hành</h3><ul><li>Mỗi nhân viên mới đều có một Buddy hỗ trợ.</li><li>Buddy hướng dẫn công việc và văn hoá công ty.</li><li>Khuyến khích học hỏi và phản hồi hai chiều.</li></ul></article>
+<article class="method"><span>02</span><h3>Đối chiếu / Benchmark</h3><ul><li>Đối chiếu với tiêu chuẩn tốt nhất.</li><li>So sánh dữ liệu thực tế với mục tiêu.</li><li>Liên tục cải tiến sau mỗi lần đánh giá.</li></ul></article>
+<article class="method"><span>03</span><h3>Quản lý theo dự án (Project-based)</h3><ul><li>Tổ chức công việc theo dự án.</li><li>Xác định rõ Owner / DRI.</li><li>Phối hợp liên phòng ban để đạt mục tiêu.</li></ul></article>
+<article class="method"><span>04</span><h3>Quản lý theo OKR – mục tiêu</h3><ul><li>O xác định định hướng, KR xác định kết quả.</li><li>Check-in hàng tuần.</li><li>Đánh giá và tổng kết theo tháng/quý.</li></ul></article>
+</div></section>
+
+<section id="nonneg" class="page"><div class="eyebrow">NHỮNG ĐIỀU FANI KHÔNG THỎA HIỆP</div><h1>5 KHÔNG</h1>
+<div class="fiveNo">
+<article><strong>KHÔNG tụ tập</strong><span>Không chia bè nhóm, không lan truyền năng lượng tiêu cực.</span></article>
+<article><strong>KHÔNG gian lận</strong><span>Trung thực trong hành động, minh bạch trong kết quả.</span></article>
+<article><strong>KHÔNG tiết lộ thông tin bảo mật</strong><span>Giữ gìn bí mật nội bộ, bảo vệ uy tín chung.</span></article>
+<article><strong>KHÔNG đổ lỗi</strong><span>Tập trung giải quyết vấn đề, chịu trách nhiệm với kết quả thay vì tìm lý do hay quy trách nhiệm cho người khác.</span></article>
+<article><strong>KHÔNG làm việc hình thức</strong><span>Chỉ làm những việc tạo ra giá trị; không làm để đối phó, không làm chỉ để hoàn thành thủ tục.</span></article>
+</div></section>
+<footer>Sổ tay văn hoá FANI · Phiên bản online dành cho CBNV</footer>
+</main></div>
+<script>
+const btn=[...document.querySelectorAll('.side button')], pages=[...document.querySelectorAll('.page')];
+function show(id){pages.forEach(x=>x.classList.toggle('active',x.id===id));btn.forEach(x=>x.classList.toggle('active',x.dataset.p===id));}
+btn.forEach(x=>x.onclick=()=>{show(x.dataset.p);location.hash=x.dataset.p;});
+show(location.hash.slice(1)||'home');
+document.getElementById('q').addEventListener('input',e=>{
+ const q=e.target.value.trim().toLowerCase();
+ if(!q){show(location.hash.slice(1)||'home');return}
+ pages.forEach(p=>p.classList.remove('active'));
+ const hits=pages.filter(p=>p.innerText.toLowerCase().includes(q));
+ hits.forEach(p=>p.classList.add('active'));
+ if(!hits.length) document.getElementById('home').classList.add('active');
+});
+</script>
+</body></html>
